@@ -1,0 +1,254 @@
+.header{
+    width: 100%;
+    height: 90px;
+    border: 1px;
+}
+.logo{
+    height: 90px;
+    width: 20%;
+    float: left;
+    background-color: gold
+}
+body{
+    margin: 0 0;
+    padding: 0 0;
+}
+.generalfont{
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    
+}
+.navigation{
+    height: 90px;
+    width: 80%;
+    float: right;
+    background-color: black;
+}
+#a{
+    height: 90px;
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    
+}
+p{
+    font-size: 28px;
+    color: gold;
+}
+.about{
+    height: 400px;
+    width: auto;
+    background-color: ghostwhite;
+    text-align: center;
+}
+.about img{
+    margin-top: 2em;
+    height: 180px;
+    width:  180px;
+
+}
+.about h1 {
+    margin-top: 1em;
+    
+}
+.about p{
+    margin-top: -1em;
+}
+img{
+    height: 180px;
+    width: 180px;
+    border-radius: 100%;
+}
+
+#pd{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: black;
+    text-align: center;
+    
+}
+.building_block{
+    width: auto;
+    height: 400px;
+    background-color:ghostwhite;
+    text-align: center;
+}
+#uw{
+    background-image:url("images/background_edited_edited.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#uw img{
+    margin-top: 3em;
+}
+.subtitle{
+    position: absolute;
+    width: 300px;
+    height: 80px;
+    margin: 1em 56em 15em 0em;
+    background-color: gold;
+    box-shadow: 10px 10px;
+}
+.t{
+    position: relative;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    padding: 5px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+h3{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+#subtext{
+    text-align: center;
+    font-family: serif;
+    color: dimgray;
+    font-size: 18px;
+}
+.study2{
+    position: absolute;  
+    height: 350px;
+    width: 800px;
+    margin-left: 320px;
+    margin-top: 2em;
+    text-align: left;
+}
+.progress {
+	margin: 10px 0;
+	 box-shadow: none;
+}
+.progress-bar-success {
+  background-color: #DEECDF;
+   box-shadow: none;
+}
+.progress-bar-info {
+  background-color: #ACB5B8;
+    box-shadow: none;
+}
+.progress-bar-warning {
+  background-color: #78B3AE;
+   box-shadow: none;
+}
+.progress-bar-danger {
+  background-color: #8C9D82;
+  box-shadow: none;
+  }
+h4{
+    font-family: sans-serif;
+}
+span{
+    font-family: monospace;
+    color:darkblue; 
+    
+}
+.socialmedia{
+    position: absolute;
+    width: 300px;
+    height: 270px;
+    margin-top: 105px;
+    margin-left: 8px;
+    float: right;
+    background-color:gainsboro;
+    border-radius: 5px;
+    box-shadow: 5px 5px grey;
+}
+.icons{
+    margin-top: 15px;
+    margin-right: 25px;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+#sp{
+    height: 50px;
+    width: 50px;
+    border-radius: 0%;
+    
+}
+.leavemessage{
+    position: absolute;
+    margin-left: 310px;
+    height: 400px;
+    width: 900px;
+}
+.personalinfo{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    margin-left: 50px;
+}
+.message{
+    height: 400px;
+    width: 400px;
+    float: right;
+}
+.leavemessage form input[type="text"], .message textarea{
+    padding: 5px;
+    border: 2px solid #ffcc00;
+    background: transparent;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+    color:darkgray;
+}
+form div p{
+    color: darkslategrey;
+    font-family: sans-serif;
+}
+.message textarea{
+    height: 190px;
+    margin-top: 5em;
+    font-family: sans-serif;
+}
+.message input[type="submit"]{
+    background-color: black;
+    border-radius: 5px;
+    color: gold;
+    padding: 8px;
+    float:right;
+}
+.message input[type="submit"]:hover {
+    background-color: dimgrey;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: gold;
+    
+}
+.iconbox{
+    width: 25em;
+    height: 80px;
+    display: inline-block;
+    float: right;
+}
+#ftext{
+    width: 10em;
+    height: 80px;
+    position: absolute;
+}
+li{
+    font-family:sans-serif;
+    vertical-align: middle;
+    font-size: 16px;
+    padding-top: 20px;
+    padding-right: 20px;
+    line-height: 25px;
+}
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+    color: purple;
+}
