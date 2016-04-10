@@ -3,19 +3,24 @@
 <head>
 <title>Daniel Zhou Personal Site Home</title>
 <meta charset="utf-8">
+<link type="text/css" rel="stylesheet" href="style/main.css"/>
 </head>
-<body ><link type="text/css" rel="stylesheet" href="style/main.css"/>
+<body ng-app="ViewSwitchApp">
      <div class="header">
              <div class="logo">
                  <h1 id="pd">Daniel</h1>
          </div>
     <div class="navigation">
-         <div id="a"><p class="generalfont">Home</p></div>
-         <div id="a"><p class="generalfont">Education</p></div>
-         <div id="a"><p class="generalfont">Skills</p></div>
-         <div id="a"><p class="generalfont">Contact</p></div>
+         <div id="a"><a href="#/"><p class="generalfont">Home</p></a></div>
+         <div id="a"><a href="#/education"><p class="generalfont">Education</p></a></div>
+         <div id="a"><a href="#/skills"><p class="generalfont">Skills</p></a></div>
+         <div id="a"><a href="#/contact"><p class="generalfont">Contact</p></a></div>
          </div>
     </div>
+
+   <div ng-view>
+     <!-- main content view -->
+   </div>
 
     <div class="footer">
 
@@ -26,6 +31,11 @@
          <div class="icons"><a href="http://weibo.com/u/3383451262"><img id="sp" src="images/1448340015_Weibo.png"></a></div>
         </div>
     </div>
+    <!-- angularjs core javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
+    <script src="js/main.js">
+
+    </script>
     </body>
 </html>
