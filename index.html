@@ -4,21 +4,19 @@
 <title>Daniel Zhou Personal Site Home</title>
 <meta charset="utf-8">
 <link type="text/css" rel="stylesheet" href="style/main.css"/>
-<link rel="stylesheet" href="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/css/bootstrap.css" integrity="sha384-XXXXXXXX" crossorigin="anonymous">
 </head>
 <body ng-app="ViewSwitchApp">
-  <div class="container">
-    <nav class="navbar navbar-fixed-top navbar-dark">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#/home">Daniel</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="nav-item"><a href="#/education">Education</a></li>
-        <li class="nav-item"><a href="#/skills"></a></li>
-        <li class="nav-item"><a href="#/contact">Contact</a></li>
-      </ul>
-    </nav>
-  </div>
+     <div class="header">
+             <div class="logo">
+                 <h1 id="pd">Daniel</h1>
+         </div>
+    <div class="navigation">
+         <div id="a"><a href="#/"><p class="generalfont">Home</p></a></div>
+         <div id="a"><a href="#/education"><p class="generalfont">Education</p></a></div>
+         <div id="a"><a href="#/skills"><p class="generalfont">Skills</p></a></div>
+         <div id="a"><a href="#/contact"><p class="generalfont">Contact</p></a></div>
+         </div>
+    </div>
 
    <div ng-view>
      <!-- main content view -->
@@ -36,10 +34,7 @@
     <!-- angularjs core javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
-    <!-- boostrap js -->
-    <script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX" crossorigin="anonymous"></script>
     <script src="js/main.js">
-
 
     </script>
     </body>
