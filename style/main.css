@@ -20,11 +20,9 @@ body{
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 
 }
-.navigation{
-    height: 90px;
-    width: 80%;
-    float: right;
-    background-color: black;
+.nav-content{
+    margin-top: -20px;
+    margin-left: 50px
 }
 #a{
     height: 90px;
