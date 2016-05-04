@@ -3,38 +3,71 @@
 <head>
 <title>Daniel Zhou Personal Site Home</title>
 <meta charset="utf-8">
-<link type="text/css" rel="stylesheet" href="style/main.css"/>
-<link rel="stylesheet" href="style/bootstrap.css" type="text/css">
+<!--Import Google Icon Font-->
+<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<!--Import materialize css-->
+<link type="text/css" rel="stylesheet" href="style/materialize/css/materialize.min.css"  media="screen,projection"/>
 </head>
 
 <body ng-app="ViewSwitchApp">
 
-  <nav class="navbar navbar-inverse">
-    <div class="container" style="font-">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#/home">Daniel</a>
+<div class="navbar-fixed">
+  <nav>
+      <div class="nav-wrapper light-blue darken-4">
+        <a href="#/home" class="center brand-logo">Daniel Zhou</a>
+        <a href="#" data-activates="mobile-nav" class="button-collapse"><i class="material-icons">Daniel</i></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="#/education">education</a></li>
+          <li><a href="#/skills">Skills</a></li>
+          <li><a href="#/contact">Contact</a></li>
+        </ul>
+        <ul class="side-nav" id="mobile-nav">
+          <li><a href="#/Education">education</a></li>
+          <li><a href="#/skills">Skills</a></li>
+          <li><a href="#/contact">Contact</a></li>
+        </ul>
       </div>
-      <ul class="nav navbar-nav pull-right" style="margin-top: -18px">
-        <li><a href="#/education">Education </a></li>
-        <li><a href="#/skills">Skills </a></li>
-        <li><a href="#/contact">Contact </a></li>
-      </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 
    <div ng-view>
      <!-- main content view -->
    </div>
 
-    <div class="footer">
+
+   <footer class="page-footer light-blue darken-4">
+             <div class="container">
+               <div class="row">
+                 <div class="col l6 s12">
+                   <h5 class="white-text">TODO</h5>
+                   <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                 </div>
+                 <div class="col l4 offset-l2 s12">
+                   <h5 class="white-text">Find me on social media</h5>
+                   <ul>
+                     <li><a class="grey-text text-lighten-3" href="https://www.facebook.com/daniel.zhou.140">FaceBook</a></li>
+                     <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/danielzhx/">Instagram</a></li>
+                     <li><a class="grey-text text-lighten-3" href="http://weibo.com/u/3383451262">Weibo</a></li>
+                   </ul>
+                 </div>
+               </div>
+             </div>
+             <div class="footer-copyright">
+               <div class="container">
+               © 2016 See you soon
+               <a class="grey-text text-lighten-4 right" href="#!"></a>
+               </div>
+             </div>
+           </footer>
+    <!-- <div class="footer">
 
         <div class="iconbox">
          <div id="ftext"><h3>Find me on Social media...</h3></div>
          <div class="icons"><a href="https://www.facebook.com/daniel.zhou.140"><img id="sp" src="images/1448340074_facebook_online_social_media.png"></a></div>
-            <div class="icons"><a href="https://www.instagram.com/danielzhx/"><img id="sp" src="images/1448340062_instagram_online_social_media.png"></a></div>
-         <div class="icons"><a href="http://weibo.com/u/3383451262"><img id="sp" src="images/1448340015_Weibo.png"></a></div>
+            <div class="icons"><a href=""><img id="sp" src="images/1448340062_instagram_online_social_media.png"></a></div>
+         <div class="icons"><a href=""><img id="sp" src="images/1448340015_Weibo.png"></a></div>
         </div>
-    </div>
+    </div> -->
     <!-- angularjs core javascript -->
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
