@@ -71,6 +71,8 @@
          <div class="icons"><a href=""><img id="sp" src="images/1448340015_Weibo.png"></a></div>
         </div>
     </div> -->
+    <!-- Import jQuery -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <!-- materialize javascript -->
     <script src="js/materialize.min.js"></script>
     <!-- angularjs core javascript -->
@@ -78,9 +80,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular-route.js"></script>
     <!-- boostrap js -->
     <!--script src="https://cdn.rawgit.com/twbs/bootstrap/v4-dev/dist/js/bootstrap.js" integrity="sha384-XXXXXXXX" crossorigin="anonymous"></script -->
-    <script src="js/main.js">
-
-
+    <script src="js/main.js"></script>
+    <script>
+      $(document).ready(function(){
+        $(".button-collapse").sideNav();
+      });
     </script>
     </body>
 </html>
