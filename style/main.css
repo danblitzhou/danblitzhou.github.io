@@ -1,17 +1,16 @@
 .profile-img{
-    height: 300px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 15%;
-    position: relative;
+    height: 260px;
+    width: 260px;
     margin: auto;
-    border-radius: 8%
+    top: 20%;
+    position: relative;
+    border-radius: 5%
 }
 
 .header-section{
   margin-left: auto;
   margin-right: auto;
+  float: none;
 }
 
 #uw{
