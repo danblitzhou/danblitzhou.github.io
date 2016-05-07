@@ -11,6 +11,13 @@
   margin-right: auto;
 }
 
+.main-icon{
+  margin: 40px 0;
+  font-size: 5em;
+  color: #01579b;
+  display: block;
+}
+
 #uw{
     background-image:url("/images/background_edited_edited.jpg");
     background-repeat: no-repeat;
