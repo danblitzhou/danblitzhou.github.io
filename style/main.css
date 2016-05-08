@@ -18,9 +18,10 @@
 }
 
 .sub-icon{
-  font-size: 1em;
+  font-size: 2em;
   colar: #01579b;
   display: block;
+  margin: 10px 0;
 }
 
 #uw{
