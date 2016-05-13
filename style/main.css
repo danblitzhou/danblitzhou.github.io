@@ -25,7 +25,17 @@
 }
 
 .uw{
-    background-image:url("/images/background_edited_edited.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image:url("/images/background_edited_edited.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.exp-img{
+  max-width: 200px;
+  margin-top: 10%
+}
+
+.list-square{
+  list-style-type: square;
+  text-align: left;
 }
