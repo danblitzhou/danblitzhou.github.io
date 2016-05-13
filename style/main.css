@@ -38,4 +38,6 @@
 .list-square{
   list-style-type: square;
   text-align: left;
+  margin-left: 30px;
+  padding: 3px;
 }
