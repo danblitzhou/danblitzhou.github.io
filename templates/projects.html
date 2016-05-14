@@ -1,4 +1,4 @@
-<div class="section cyan lighten-5"><!--contact-->
+<div class="section cyan lighten-5" ng-controller="ProjectsController"><!--contact-->
   <div class="container">
     <h2 class="center-align">
       Projects
@@ -7,16 +7,16 @@
       <div class="col s12 m4">
         <div class="card medium">
           <div class="card-image">
-            <img src="images/fishLogin.png">
-            <span class="card-title">Let's Yue</span>
+            <a href="#modal1" class="waves-effect waves-light modal-trigger"><img src="images/fishLogin.png"></a>
           </div>
           <div class="card-content">
+            <span class="card-title black-text">Let's Yue</span>
             <ul>
               <li>Create custom events and bring all your friends together!</li>
             </ul>
           </div>
           <div class="card-action">
-            <a href=""><i class="fa fa-github"></i>Github</a>
+            <a href="https://github.com/danblitzhou/lets-yue"><i class="fa fa-github"></i>  Github</a>
           </div>
         </div>
       </div>
@@ -24,17 +24,17 @@
         <div class="card medium">
           <div class="card-image">
             <img src="images/nearby_activities.png">
-            <span class="card-title">Oh my fish!</span>
           </div>
           <div class="card-content">
+            <span class="card-title black-text">Oh my fish!</span>
             <ul>
               <li>Standardized Fisheries Data management and sharing Hybrid App
               </li>
             </ul>
           </div>
           <div class="card-action">
-            <a href="https://github.com/danblitzhou/oh-my-fish"><i class="fa fa-github"></i>Github</a>
-            <a href="http://devpost.com/software/oh-my-fish"><i class="fa fa-file-text">DevPost</i></a>
+            <a href="https://github.com/danblitzhou/oh-my-fish"><i class="fa fa-github"></i>  Github</a>
+            <a href="http://devpost.com/software/oh-my-fish"><i class="fa fa-file-text"></i>  DevPost</a>
           </div>
         </div>
       </div>
@@ -42,20 +42,20 @@
         <div class="card medium">
           <div class="card-image">
             <img src="images/daniel_logo.png">
-            <span class="card-title">Personal Page</span>
           </div>
           <div class="card-content">
+            <span class="card-title black-text">Personal Page</span>
             <p>Personal page built with materialize and angularJS</p>
           </div>
           <div class="card-action">
-            <a href="https://github.com/danblitzhou/danblitzhou.github.io"><i class="fa fa-github"></i>Source</a>
+            <a href="https://github.com/danblitzhou/danblitzhou.github.io"><i class="fa fa-github"></i>  Github</a>
           </div>
         </div>
         <div class="card-panel light-blue darken-4">
           <span class="white-text">
             Follow my on-going and future works!
           </span>
-          <a href="https://github.com/danblitzhou/"><span class="white-text"><i class="fa fa-github"></i>My Github</span></a>
+          <a href="https://github.com/danblitzhou/"><span class="white-text"><i class="fa fa-github"></i>  My Github</span></a>
         </div>
       </div>
     </div>
@@ -84,4 +84,15 @@
             </div>
         </form>
     </div> -->
+    <!-- modals template -->
+    <div id="modal1" class="modal bottom-sheet">
+      <div class="modal-content">
+        <h4>Let's Yue</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <a href="#!" class="modal-action modal-close waves-effect btn-flat"><i class="material-icons">close</i></a>
+      </div>
+    </div>
+
 </div>
