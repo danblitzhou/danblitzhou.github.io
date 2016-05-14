@@ -2,6 +2,7 @@ angular.module('ViewSwitchApp', ['ngRoute'])
 .controller('ProjectsController', function($scope, $routeParams) {
   $(document).ready(function() {
     $('.modal-trigger').leanModal();
+    $('.slider').slider();
   });
 })
 .config(['$routeProvider', function ($routeProvider) {
