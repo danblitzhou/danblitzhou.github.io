@@ -4,6 +4,6 @@ angular.module('ViewSwitchApp', ['ngRoute'])
   .when('/home', {templateUrl: 'templates/home.html'})
   .when('/experience', {templateUrl: 'templates/experience.html'})
   .when('/skills', {templateUrl: 'templates/skills.html'})
-  .when('/contact', {templateUrl: 'templates/contact.html'})
+  .when('/projects', {templateUrl: 'templates/projects.html'})
   .otherwise({redirectTo: '/home'});
 }]);
