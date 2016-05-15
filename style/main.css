@@ -16,9 +16,18 @@
   font-weight: bold;
 }
 
+.indigo-list{
+  color: #3f51b5;
+  margin-left: 10px;
+}
+
+.brand-logo-pic{
+  height: inherit;
+  padding: 5px 0;
+}
+
 .logo-pic{
-  max-height: 52px;
-  margin: 6px 0;
+  height: inherit;
 }
 
 .main-icon{
