@@ -11,15 +11,20 @@
   margin-right: auto;
 }
 
+.header-text{
+  color: #3f51b5 !important;
+  font-weight: bold;
+}
+
 .main-icon{
   font-size: 2em;
-  color: #01579b;
+  color: #3f51b5;
   display: block;
 }
 
 .sub-icon{
   font-size: 2em;
-  color: #01579b;
+  color: #3f51b5;
   display: block;
   margin: 10px 0;
 }
