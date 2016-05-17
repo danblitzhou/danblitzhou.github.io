@@ -3,8 +3,8 @@ angular.module('ViewSwitchApp', ['ngRoute'])
   $(document).ready(function() {
     $('.modal-trigger').leanModal();
     $('.slider').slider();
-    $('.card').each(function(index) {
-      $(this).delay(400*index).fadeIn(300);
+    $('.fadeInCard').each(function(index) {
+      $(this).hide().delay(400 * index).fadeIn(300);
     });
   });
 
