@@ -4,6 +4,9 @@ angular.module('ViewSwitchApp', ['ngRoute'])
     $('.modal-trigger').leanModal();
     $('.slider').slider();
   });
+  $('.card').each(function(index) {
+    $(this).delay(400*index).fadeIn("slow");
+  });
 })
 .controller('ExperienceController', function($scope, $routeParams) {
   $(document).ready(function() {
