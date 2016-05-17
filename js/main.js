@@ -5,6 +5,11 @@ angular.module('ViewSwitchApp', ['ngRoute'])
     $('.slider').slider();
   });
 })
+.controller('ExperienceController', function($scope, $routeParams) {
+  $(document).ready(function() {
+    $(".collapsible").collapsible();
+  });
+})
 .config(['$routeProvider', function ($routeProvider) {
   $routeProvider
   .when('/home', {templateUrl: 'templates/home.html'})
