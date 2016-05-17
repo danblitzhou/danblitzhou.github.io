@@ -3,10 +3,11 @@ angular.module('ViewSwitchApp', ['ngRoute'])
   $(document).ready(function() {
     $('.modal-trigger').leanModal();
     $('.slider').slider();
+    $('.card').each(function(index) {
+      $(this).delay(400*index).fadeIn(300);
+    });
   });
-  $('.card').each(function(index) {
-    $(this).delay(400*index).fadeIn("slow");
-  });
+
 })
 .controller('ExperienceController', function($scope, $routeParams) {
   $(document).ready(function() {
