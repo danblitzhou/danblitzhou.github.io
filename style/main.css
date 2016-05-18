@@ -11,6 +11,10 @@
   margin-right: auto;
 }
 
+.bio{
+  font-size: 18px;
+  text-align: justify;
+}
 .header-text{
   color: #3f51b5 !important;
   font-weight: bold;
